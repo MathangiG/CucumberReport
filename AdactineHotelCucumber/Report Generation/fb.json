@@ -1,0 +1,327 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 35,
+        "name": "Verifying Adactin login With Valid Credentials",
+        "description": "",
+        "id": "verifying-adactine-page-login;verifying-adactin-login-with-valid-credentials;|;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8398829000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is on Adactine Login page",
+            "match": {
+              "location": "LoginPageStep.launchBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2102430800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should login \"Mathangi\" and \"A2J3X1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mathangi\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"A2J3X1\"",
+                  "offset": 33
+                }
+              ],
+              "location": "LoginPageStep.user_should_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3213588600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should search hotel \"Sydney\" , \"Hotel Creek\" , \"Standard\" , \"1 - One\" , \"4 - Four\" and \"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 92
+                }
+              ],
+              "location": "LoginPageStep.user_should_search_hotel_and(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 985095900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should select the room",
+            "match": {
+              "location": "LoginPageStep.user_should_select_the_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1844595000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should book room \"Mathangi\" , \"Sankar\" , \"Chennai\" , \"1234567890123456\" , \"VISA\" , \"October\" , \"2017\" and \"345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mathangi\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Sankar\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"1234567890123456\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"2017\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"345\"",
+                  "offset": 111
+                }
+              ],
+              "location": "LoginPageStep.user_should_book_room_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5804428100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User should generate order Id",
+            "match": {
+              "location": "LoginPageStep.user_should_generate_order_Id()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "Verifying Adactin login With Valid Credentials",
+        "description": "",
+        "id": "verifying-adactine-page-login;verifying-adactin-login-with-valid-credentials;|;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6031888000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User is on Adactine Login page",
+            "match": {
+              "location": "LoginPageStep.launchBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2228552400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User should login \"Mathangi\" and \"A2J3X1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mathangi\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"A2J3X1\"",
+                  "offset": 33
+                }
+              ],
+              "location": "LoginPageStep.user_should_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2171915700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User should search hotel \"Sydney\" , \"Hotel Creek\" , \"Standard\" , \"1 - One\" , \"4 - Four\" and \"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 92
+                }
+              ],
+              "location": "LoginPageStep.user_should_search_hotel_and(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1078220800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User should select the room",
+            "match": {
+              "location": "LoginPageStep.user_should_select_the_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1836854000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User should book room \"Mathangi\" , \"Sankar\" , \"Chennai\" , \"1234567890123456\" , \"VISA\" , \"October\" , \"2017\" and \"345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mathangi\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Sankar\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"1234567890123456\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"2017\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"345\"",
+                  "offset": 111
+                }
+              ],
+              "location": "LoginPageStep.user_should_book_room_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5602735800,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User should generate order Id",
+            "match": {
+              "location": "LoginPageStep.user_should_generate_order_Id()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactine Page Login",
+    "description": "",
+    "id": "verifying-adactine-page-login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/LoginPage.feature",
+    "tags": []
+  }
+]
